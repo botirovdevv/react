@@ -1,0 +1,68 @@
+.contact{
+    padding-bottom: 130px;
+    &-title{
+        color: #8643DC;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-bottom: 3px solid #8643DC;
+        padding-bottom: 10px;
+        width: 100px;
+    }
+
+    &-items{
+        @include flex(start, space-between);
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    &-subtitle{
+        color: #21232D;
+        @include adaptive-value('font-size', 36, 22);
+        @include adaptive-value('line-height', 52, 34);
+        font-style: normal;
+        font-weight: 500;
+        width: 560px;
+    }
+
+    &-link{
+        color: #8643DC;
+        @include adaptive-value('font-size', 24, 18);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+        text-transform: lowercase;
+
+        @media screen and (max-width: 600px){
+            display: none;
+        }
+    }
+
+    &-form{
+        margin-top: 50px;
+        @include flex(start, unset);
+        gap: 45px;
+        flex-direction: column;
+    }
+
+    &-input{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #A8A0B0;
+        padding-bottom: 15px;
+        outline: none;
+        color: #3c3b3d;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        &::placeholder{
+            color: #A8A0B0;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+}

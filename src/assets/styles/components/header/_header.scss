@@ -1,0 +1,41 @@
+.header{
+    height: 70vh;
+    &-content{
+        @include flex(start, space-between)
+    }
+
+    &-items{
+        margin-top: 250px;
+    }
+
+    &-text{
+        color: #666;
+        @include adaptive-value('font-size', 24, 20);
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+    }
+
+    &-name_text{
+        color: #25202F;
+        @include adaptive-value('font-size', 60, 40);
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    &-info{
+        color: #666;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 28.8px */
+    }
+
+    &-image{
+        @include adaptive-value('width', 700, 500)
+    }
+}

@@ -1,0 +1,65 @@
+.portfolio{
+    margin-top: 150px;
+    padding-bottom: 130px;
+
+    &-title{
+        color: #8643DC;
+        @include adaptive-value('font-size', 18, 15);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-bottom: 3px solid #8643DC;
+        padding-bottom: 10px;
+        width: 50px;
+    }
+
+    &-items{
+        @include flex(start, space-between);
+        margin-top: 15px;
+    }
+
+    &-subtitle{
+        color: #25202F;
+        @include adaptive-value('font-size', 36, 33);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 250px;
+    }
+
+    &-link{
+        color: #25202F;
+        @include adaptive-value('font-size', 24, 22);
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+
+    &-images{
+        @include flex(center, space-between);
+        flex-wrap: wrap;
+        margin-top: 30px;
+        gap: 15px;
+
+        @media screen and (max-width: 1230px){
+            justify-content: center;
+        }
+    }
+
+    &-image{
+        width: 600px;
+        height: 380px;
+        object-fit: cover;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+
+        &:hover{
+            scale: 0.9;
+        }
+
+        @media screen and (max-width: 630px){
+            width: 100%;
+        }
+    }
+}
