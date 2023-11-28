@@ -28,7 +28,7 @@ function Tesminoals() {
           <div className="testimonials-info">
             <img src={elonMusk} data-aos="fade-right" className='testimonials-image1' alt="" />
             <img src={mark} data-aos="fade-right" className='testimonials-image2' alt="" />
-            <img src={billGates} data-aos="fade-left" className='testimonials-image3' alt="" />
+            <img src={billGates} data-aos="zoom-in" className='testimonials-image3' alt="" />
             <img src={steveJobs} data-aos="fade-left" className='testimonials-image4' alt="" />
            <Swiper
             slidesPerView={1}

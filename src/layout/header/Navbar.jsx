@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { linksData } from '../../data/linksData'
 import { Link } from 'react-scroll'
+import logo from '../../assets/images/logo.png'
 
 function Navbar() {
     const [active, setActive] = useState("navbar-links")
@@ -26,7 +27,7 @@ function Navbar() {
         <div className="navbar-container">
             <div>
                 <a href="/">
-                    <img className="navbar-logo" src="./src/assets/images/logo.png" alt="logo" />
+                    <img className="navbar-logo" src={logo} alt="logo" />
                 </a>
             </div>
             <div className={active}>

@@ -20,9 +20,9 @@ function Contact() {
             <a href="#" className='contact-link'>botirovdev7@mail.com</a>
           </div>
           <form className='contact-form'>
-            <input type="text" maxLength={45} data-aos="flip-up" placeholder='What’s your name?' className='contact-input' />
-            <input type="text" maxLength={50} data-aos="flip-up"  placeholder='Your email' className='contact-input' />
-            <input type="text" maxLength={250} data-aos="flip-up" placeholder='Tell me about your project' className='contact-input' />
+            <input type="text" maxLength={45} data-aos="zoom-in" placeholder='What’s your name?' className='contact-input' />
+            <input type="text" maxLength={50} data-aos="zoom-in"  placeholder='Your email' className='contact-input' />
+            <input type="text" maxLength={250} data-aos="zoom-in" placeholder='Tell me about your project' className='contact-input' />
           </form>
         </div>
       </div>
