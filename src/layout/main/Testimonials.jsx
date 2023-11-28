@@ -10,7 +10,10 @@ import 'swiper/css/pagination';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-
+import billGates from '../../assets/images/billGates.jpg'
+import steveJobs from '../../assets/images/steveJobs.jpg'
+import elonMusk from '../../assets/images/elonMusk.jpg'
+import mark from '../../assets/images/markZuckerberg.jpg'
 
 function Tesminoals() {
   useEffect(() => {
@@ -23,10 +26,10 @@ function Tesminoals() {
           <h1 className="testimonials-title" data-aos="fade-right">Testimonials</h1>
           <h2 className='testimonials-subtitle'>What People Says</h2>
           <div className="testimonials-info">
-            <img src="./src/assets/images/elonMusk.jpg" data-aos="fade-right" className='testimonials-image1' alt="" />
-            <img src="./src/assets/images/markZuckerberg.jpg" data-aos="fade-right" className='testimonials-image2' alt="" />
-            <img src="./src/assets/images/billGates.jpg" data-aos="fade-left" className='testimonials-image3' alt="" />
-            <img src="./src/assets/images/stevejobs.jpg" data-aos="fade-left" className='testimonials-image4' alt="" />
+            <img src={elonMusk} data-aos="fade-right" className='testimonials-image1' alt="" />
+            <img src={mark} data-aos="fade-right" className='testimonials-image2' alt="" />
+            <img src={billGates} data-aos="fade-left" className='testimonials-image3' alt="" />
+            <img src={steveJobs} data-aos="fade-left" className='testimonials-image4' alt="" />
            <Swiper
             slidesPerView={1}
             spaceBetween={100}
