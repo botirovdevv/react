@@ -48,6 +48,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.wrapper {
+  position: relative;
+}
+
 .navbar {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -439,6 +443,11 @@ body {
   margin-top: 20px;
   width: 560px;
 }
+@media screen and (max-width: 580px) {
+  .testimonials-text {
+    width: 100%;
+  }
+}
 .testimonials-famous {
   width: 100px;
   height: 98.16px;
@@ -612,6 +621,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  background-color: transparent;
 }
 .contact-input::-moz-placeholder {
   color: #A8A0B0;
@@ -622,4 +632,12 @@ body {
   color: #A8A0B0;
   font-size: 20px;
   font-weight: 400;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(222, 222, 222);
 }/*# sourceMappingURL=Main.css.map */

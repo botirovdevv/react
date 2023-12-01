@@ -37,6 +37,10 @@
         line-height: 32px;
         margin-top: 20px;
         width: 560px;
+
+        @media screen and (max-width: 580px){
+            width: 100%;
+        }
     }
 
     &-famous{

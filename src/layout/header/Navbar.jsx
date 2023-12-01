@@ -10,7 +10,6 @@ function Navbar() {
     const navToggleClose = () => {
         setActive('navbar-links');
         setToggleIcon('navbar-toggler')
-
     }
 
     const navToggle = () => {
@@ -26,9 +25,10 @@ function Navbar() {
     <nav className='navbar'>
         <div className="navbar-container">
             <div>
-                <a href="/">
+                <Link className='navbar-link' to="home" smooth={true} offset={0} duration={600}>
                     <img className="navbar-logo" src={logo} alt="logo" />
-                </a>
+                </Link>
+
             </div>
             <div className={active}>
                 {

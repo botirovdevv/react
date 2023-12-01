@@ -12,9 +12,9 @@ function Header() {
         <div className="container">
             <div className="header-content"> 
                 <div className='header-items'>
-                    <h3 className='header-text' data-aos="flip-down">Hello</h3>
-                    <h1 className='header-name_text' data-aos="flip-down">Mustafo Botirov</h1>
-                    <h1 className='header-info'>
+                    <h3 className='header-text' data-aos="flip-right">Hello</h3>
+                    <h1 className='header-name_text' data-aos="zoom-in">Mustafo Botirov</h1>
+                    <h1 className='header-info' data-aos="flip-right">
                     i am{' '}
                     <span>
                         <Typewriter
