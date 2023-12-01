@@ -17,7 +17,7 @@ function Contact() {
               about a potential collaboration.
               I'm available for freelance work.
             </p>
-            <a href="#" className='contact-link'>botirovdev7@mail.com</a>
+            <a href="mailto:botirovdev7@gmail.com" className='contact-link'>botirovdev7@gmail.com</a>
           </div>
           <form className='contact-form'>
             <input type="text" maxLength={45} data-aos="zoom-in" placeholder='What’s your name?' className='contact-input' />
