@@ -48,3 +48,16 @@ body{
 .wrapper{
     position: relative;
 }
+
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #8643DC;
+    border-radius: 10px;
+}

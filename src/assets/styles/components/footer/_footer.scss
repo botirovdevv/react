@@ -1,0 +1,32 @@
+.footer{
+    margin-top: 30px;
+    padding-bottom: 50px;
+
+    &-title{
+        color: #21232D;
+        text-align: center;
+        @include adaptive-value('font-size', 36, 30);
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &-icons{
+        @include flex(center, center);
+        gap: 35px;
+        margin-top: 25px;
+    }
+
+    &-subtitle{
+        color: #21232D;
+        text-align: center;
+        @include adaptive-value('font-size', 16, 15);
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 50px;
+    }
+
+
+}
+
